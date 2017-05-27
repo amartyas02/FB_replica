@@ -1,0 +1,434 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	color: #1D2129;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.34;
+		
+}	
+
+#container{
+	position: relative;
+	display: block;
+}
+
+/*---Bluebar designing starts---*/
+
+#bluebar{
+	margin: 0;
+	height: 83px;
+	min-height: 42px;
+	width: 100%;
+	min-width: 980px;
+	background-color: #3B5998;
+	background-image: linear-gradient(#4E69A2, #3B5998 50%);
+	border-bottom: 1px solid #133783;
+	
+	
+}
+
+#bluebar_content{
+	margin: 0 auto;
+	position: relative;
+	padding-top: 13px;	
+	width: 980px;
+}
+
+#logo{
+	display: inline-block;
+	margin-top: 17px;
+}	
+
+#login{
+		display: inline-block;
+		position: absolute;
+		right: 0;
+		width: 390px;
+		color: white;
+}	
+
+.form_label{
+	padding-bottom: 4px;
+	padding-left: 14px;
+	
+}
+
+.input_field{	
+	padding-left: 14px;
+}	
+
+
+
+#email_phone{
+	border: 1px solid rgb(29, 42, 91);
+	width: 142px;
+	height: 14px;
+	padding: 3px 3px 4px 3px;
+	font-size: 11px;
+}	
+
+#password{
+	border: 1px solid rgb(29, 42, 91);
+	width: 142px;
+	height: 14px;
+	padding: 3px 3px 4px 3px;
+	font-size: 11px;
+}	
+
+#loginbutton{
+	display: inline-block;
+	border: 0.8px solid #29487D;
+	border-radius: 2px;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 2px 6px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #4267B2;
+	color: white;
+}
+
+#loginbutton:hover{
+	background: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#pass-reset{
+	padding-top: 4px;
+}
+
+#password-reset{
+	color: #9CB4D8;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+#password-reset:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/*---Bluebar designing ends---*/
+
+#middle{
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	min-width: 980px;
+	background-image: linear-gradient(#FFFFFF, #D3D8E8);
+}
+
+#middle_content{
+	display: flex;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 980px;
+}
+
+/*---Left content design starts---*/
+
+#left_side{
+	float: left;
+	padding: 0 15px 0 0;
+	width: 565px;
+}
+
+#intro{
+	color: #0E385F;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 29px;
+	margin-top: 20px;
+	width: 450px;
+	word-spacing: -1px;
+}
+
+/*---Left content design ends---*/
+
+/*---Right content design starts---*/
+
+#right_side{
+	float: right;
+	width: 400px;
+}
+
+#header{							
+	padding: 0 0 20px 0;
+}
+
+#create{
+	color: #333;
+	font-size: 36px;			/*---Create an account---*/
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+#free{
+	font-weight: normal;		/*---Free and always will be---*/
+	font-size: 19px;
+	color: #1D2129;
+}
+
+#reg_form{						
+	margin: 0 auto 0 auto;
+}
+
+#fullname{
+	display: block;
+	height: 50px;
+	font-size: 12px;
+}
+
+#firstname{
+	display: inline-block;
+	margin-right: 8px;
+	width: 194px;
+}
+
+#surname{
+	display: inline-block;
+	float: right;
+	width: 194px;
+}
+
+*::-moz-.placeholder, :-moz-placeholder{
+	color: #999;
+}
+
+.textbox{
+	margin-bottom: 10px;
+	width: 172px;
+	padding: 8px 10px;
+	border-radius: 5px;
+	font-size: 18px;
+	border: 1px solid #BDC7D8;
+}
+
+#email-id, #pass{
+	margin-bottom: 10px;
+	position: relative;
+	display: inline-block;
+	width: 377px;
+	padding: 8px 10px;
+	border-radius: 5px;
+	font-size: 18px;
+	border: 1px solid #BDC7D8;	
+}
+
+#word{
+	margin: 10px 0 5px 0;
+	font-size: 18px;			/*---The word 'Birthday'---*/
+	font-weight: normal;
+}
+
+#Birthday, #dropbox_query{
+	position: relative;
+}
+
+.dropbox{
+	display: inline-block;
+}
+
+.date{
+	font-size: 13px;
+	height: 30px;	
+	padding: 5px;
+	border: 1px solid #BDC7D8;
+}
+
+#query{
+	display: inline-block;
+	font-size: 11px;
+	margin-left: 10px;
+	max-width: 150px;
+	cursor: pointer;			/*---The Question---*/
+	color: #365899;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+#query:hover{
+	text-decoration: underline;
+}
+
+#gender{
+	margin-top: 10px;
+	position: relative;
+	display: inline-block;
+	
+}
+
+.gender_labels{
+	color: #1D2129;
+	cursor: pointer;
+    font-size: 18px;
+    font-weight: normal;		/*---Gender choice---*/
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+	vertical-align: middle;
+}
+
+#female{
+	margin-right: 4px;
+    border-radius: 4px;
+    border-width: 1px;
+    display: inline-block;
+    padding: 5px 0 5px 4px;
+}
+
+#male{
+	border-radius: 4px;
+	border-width: 1px;
+	display: inline-block;
+	padding: 5px 0 5px 4px;
+}
+
+#disclaimer{
+	position: relative;			/*---Disclaimer i.e. Terms and Conditions---*/
+}
+
+#TnC{
+	color: #777;
+	font-size: 11px;
+	width: 316px;
+}
+
+.TnC_links, #celeb_link, .footer_links{
+	color: #365899;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.TnC_links:hover, #celeb_link:hover, .footer_links:hover{
+	text-decoration: underline;
+}
+
+#button{
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 8px 20px;			/*---"Create an account" button---*/
+	min-width: 194px;
+	
+	background: linear-gradient(#67AE55, #578843);
+	background-color: #69A74E;												
+	
+	font-size: 18px;
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.3px;
+	line-height: 126%;
+	text-align: center;
+	vertical-align: middle;	
+	
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: #3B6E22 #3B6E22 #2C5115;
+	
+	color: #FFF;
+	cursor: pointer;
+
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	box-shadow: inset 0 1px 1px #A4E388;
+}
+
+#button:hover{
+	background-image: linear-gradient(#79BC64, #578843);
+}
+
+#celeb{
+	display: block;
+	color: #666666;
+	font-size: 13px;			/*---Celeb page link---*/
+	font-weight: bold;
+	margin-top: 10px;
+	padding-top: 15px;
+}
+
+/*---Right content design ends---*/
+/*---Middle contents over---*/
+
+/*---Footer design starts---*/
+
+#footer_band{
+	position: relative;
+	margin: 0;
+	width: 100%;
+	min-width: 980px;
+}
+
+#footer-content{
+	margin: 0 auto;
+	width: 980px;
+	color: #737373;
+}
+
+#lang{
+	padding-top: 8px;
+	margin: 0;
+}
+
+#lang ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#lang li{
+	display: inline-block;
+	padding-left: 10px;
+}
+
+#plus{
+	display: inline-block;
+	position: relative;
+	
+	border: 1px solid;
+	border-radius: 2px;
+	border-color: #CED0D4;
+	
+	font-size: 16px;
+	font-weight: bold;
+	
+	height: 18px;
+	line-height: 18px;
+	
+	background-color: #F6F7F9;
+	color: #4B4F56;
+	
+	justify-content: center;
+	padding: 0 8px;
+	text-align: center;
+	vertical-align: middle;
+	
+	cursor: pointer;
+	text-decoration: none;
+	transition: background-color 200ms;
+}
+
+#plus:hover{
+	text-decoration: none;
+	background-color: #E9EBEE;
+}
+
+#line{
+	position:relative;
+	border-bottom: 1px solid #DDDFE2;
+	height: 8px;
+	margin-bottom: 8px;
+}
+
+#copyright{
+	position:relative;
+	margin: 20px 0 20px 0;
+	font-size: 11px;
+}
+
+/*---Footer design ends---*/
